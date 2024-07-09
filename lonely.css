@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Garamond;
+    src: url("font/AppleGaramond.ttf");
+}
+
+@font-face {
+    font-family: Garamond;
+    font-weight: bold;
+
+    src: url("font/AppleGaramond-Bold.ttf");
+}
+
+@font-face {
+    font-family: Garamond;
+    font-style: italic;
+
+    src: url("font/AppleGaramond-Italic.ttf");
+}
+
+@font-face {
+    font-family: Garamond;
+    font-weight: bold;
+    font-style: italic;
+
+    src: url("font/AppleGaramond-BoldItalic.ttf");
+}
+
+
+html {
+    background-image: url("img/messy3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h1 {
+    font-family: Garamond;
+}
+
+.intro-outro {
+    user-select: none;
+
+    color: greenyellow;
+
+    margin: auto;
+    text-align: center;
+    
+    font-family: sans-serif;
+}
+
+.intro-outro a {
+    color: greenyellow;
+}
+
+#datamain {
+    width: 40%;
+    min-width: 400px;
+    margin: auto;
+}
+
+.databox {
+    padding: 4px;
+
+    background-image: url("img/brushed_steel2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.databox-header-container {
+    user-select: none;
+    font-family: Garamond;
+
+    color: black;
+}
+
+.databox-header-container:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.databox-blockquote {
+    border-style: groove;
+    border-color: white;
+    border-width: 2px;
+
+    background-color: black;
+    color: green;
+
+    margin: 8px;
+    padding: 8px;
+}
+
+.databox-blockquote::selection {
+    background-color: green;
+    color: black;
+}
+
+.togglebutton:hover {
+    cursor: pointer;
+}
+
+.float-right {
+    float: right;
+    text-align: right;
+}
+
+.hintable {
+    cursor: help;
+}
+
+iframe {
+    display: block;
+    text-align: center;
+
+    border-style: groove;
+    border-color: white;
+    border-width: 2px;
+
+    background-color: black;
+    color: green;
+
+    width: 97%;
+    min-height: 600px;
+
+    margin: 8px;
+}
