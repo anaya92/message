@@ -54,7 +54,7 @@ h1 {
 
 #datamain {
     width: 40%;
-    min-width: 256px;
+    min-width: 45ch;
     margin: auto;
 }
 
