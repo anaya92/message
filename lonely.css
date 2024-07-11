@@ -39,13 +39,12 @@ h1 {
 }
 
 .intro-outro {
-    margin-top: env(safe-area-inset-top);
-
     user-select: none;
 
     color: greenyellow;
 
     margin: auto;
+    margin-top: env(safe-area-inset-top);
     text-align: center;
     
     font-family: sans-serif;
