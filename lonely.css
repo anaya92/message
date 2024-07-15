@@ -32,10 +32,6 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed !important;
     background-size: cover !important;
-
-    min-height: 100%;
-
-    font-size: 110%;
 }
 
 body {
